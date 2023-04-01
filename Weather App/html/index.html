@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+   
+    <div class="container">
+        <nav class="bar">
+            <ul>
+                <img src="/img/logo.png" alt="logo">
+                <h1>TODAY'S WEATHER</h1>
+    
+                <div class="date">
+                    <h2 id="date"> </h2>
+                    <h3 id="time"> </h3> 
+                </div>
+            </ul>
+        </nav>
+    
+        <div class="weather">
+            <div id="weather-icon" class="weather-icon">
+
+            </div>
+            <div class="weather-info">
+                <p id="climate"> </p>
+                <p id="city"> </p>
+                <p id="country"> </p>
+            </div>
+            <div class="description">
+                <p id="description"> </p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a city" id="search" autocomplete="off" style="outline: none;">
+            </div>
+            <div class="temperature">
+                <p id="temperature"> </p>
+                <img src="/icons/thermometer.png" alt="thermometer">
+            </div>
+            <div class="wind">
+                <p id="wind"> </p>
+                <img src="/icons/wind.png" alt="wind">
+            </div>
+            <div class="humidity">
+                <p id="humidity"> </p>
+                <img src="/icons/humidity.png" alt="humidity">
+            </div>
+            <div class="rainfall">
+                <p id="rainfall"> </p>
+                <img src="/icons/rainy-cloud.png">
+            </div>
+            <div class="no-rain">
+                <p id="no-rain"> </p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
